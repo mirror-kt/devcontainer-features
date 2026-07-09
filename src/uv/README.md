@@ -1,17 +1,28 @@
 
-# Hello, World (hello)
+# uv (uv)
 
-A hello world Template
+An extremely fast Python package and project manager, written in Rust.
+
+## Example Usage
+
+```json
+"features": {
+    "ghcr.io/mirror-kt/devcontainer-features/uv:1": {}
+}
+```
 
 ## Options
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| imageVariant | Ubuntu version (use ubuntu-22.04 or ubuntu-18.04 on local arm64/Apple Silicon): | string | jammy |
-| greeting | Select a pre-made greeting, or enter your own | string | hey |
+| version | Select the version to install. | string | latest |
+| shellautocompletion | Enable or disable uv and uvx autocompletion. | boolean | false |
 
+## uv Repository
+
+* [astral-sh/uv](https://github.com/astral-sh/uv)
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-template.json](https://github.com/devcontainers/template-starter/blob/main/src/hello/devcontainer-template.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/va-h/devcontainers-features/blob/main/src/uv/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._

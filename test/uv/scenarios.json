@@ -1,0 +1,23 @@
+{
+    "uv": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "uv": {
+                "version": "0.11.28"
+            }
+        }
+    },
+    "uv-autocomplete": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils:2.5.9": {
+                "installZsh": true,
+                "installOhMyZsh": false,
+                "upgradePackages": false
+            },
+            "uv": {
+                "shellautocompletion": true
+            }
+        }
+    }
+}
